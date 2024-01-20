@@ -12,12 +12,12 @@ from PIL import Image
 import requests
 
 
-load_dotenv()
+#load_dotenv()
 
-bearer = "Bearer "+os.getenv('HUGGINGFACEHUB_API_TOKEN')
+#bearer = "Bearer "+os.getenv('HUGGINGFACEHUB_API_TOKEN')
 
 API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
-headers = {"Authorization": bearer}
+headers = {"Authorization": "Bearer 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"}
 
 
 def query(payload):
