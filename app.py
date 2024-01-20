@@ -15,9 +15,10 @@ import requests
 #load_dotenv()
 
 #bearer = "Bearer "+os.getenv('HUGGINGFACEHUB_API_TOKEN')
+bearer = "Bearer "+st.secrets["HUGGINGFACEHUB_API_KEY"]
 
 API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": bearer}
 
 
 def query(payload):
