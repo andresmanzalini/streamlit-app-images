@@ -15,7 +15,8 @@ import requests
 #load_dotenv()
 
 #bearer = "Bearer "+os.getenv('HUGGINGFACEHUB_API_TOKEN')
-token=st.secrets["HUGGINGFACEHUB_API_KEY"]
+token=st.secrets["HUGI"]
+#token=st.secrets["HUGGINGFACEHUB_API_KEY"]
 st.info(token)
 bearer = "Bearer "+str(token)
 
