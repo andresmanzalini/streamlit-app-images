@@ -9,7 +9,7 @@ app consiste en 2 partes>
 una vez hecho estos dos funciones, hacer que se combinen
 
 
-## Construir imagen
+### Construir imagen
 
 docker build -t streamlit-app .
 
