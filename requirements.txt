@@ -2,7 +2,4 @@ streamlit
 pandas
 numpy
 python-dotenv
-diffusers
-transformers
-accelerate
 pillow
